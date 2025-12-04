@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NetRecs - Movie Recommendations</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logo">NETRECS</div>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="What are you looking for?">
+            <button id="searchBtn">Search</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <h1>Unlimited Movies, TV Shows, and More.</h1>
+                <p>Discover your next favorite story.</p>
+            </div>
+        </section>
+
+        <section id="recommendations" class="movie-section hidden">
+            <h2>Recommended for You</h2>
+            <div class="movie-grid" id="recommendationsGrid">
+                <!-- Recommendations will appear here -->
+            </div>
+        </section>
+
+        <section id="genreSections" class="genre-sections">
+            <!-- Genre sections will be dynamically loaded here -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 NetRecs. All rights reserved.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
