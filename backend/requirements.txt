@@ -4,3 +4,7 @@ pandas
 scikit-learn
 nltk
 spacy
+rank-bm25
+numpy
+sentence-transformers
+torch
